@@ -1,5 +1,5 @@
 {
-  "name": "@vueform/vueform-plugin-color-picker",
+  "name": "@tony-nz/vueform-plugin-color-picker",
   "version": "1.0.0",
   "description": "Unofficial color picker plugin for Vueform.",
   "repository": "@tony-nz/vueform-plugin-color-picker",
