@@ -11,7 +11,7 @@ Plugin for [Vueform](https://github.com/vueform/vueform) to add a color picker f
 1. Install the plugin
 
 ```bash
-npm install @vueform/plugin-color-picker
+npm install @tony-nz/plugin-color-picker
 ```
 
 2. Add the plugin in vueform.config.js
@@ -19,7 +19,7 @@ npm install @vueform/plugin-color-picker
 ```js
 // vueform.config.js
 
-import ColorPickerPlugin from "@vueform/vueform-plugin-color-picker";
+import ColorPickerPlugin from "@tony-nz/vueform-plugin-color-picker";
 
 export default {
   // ...
