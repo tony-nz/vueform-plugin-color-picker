@@ -31,11 +31,20 @@ export default {
 
 ### Basic Color Picker
 
-````vue
+```vue
 <TextElement name="colorPickerHex" colorFormat="hex" />
-``` ### RGB Color Picker ```vue
+```
+
+### RGB Color Picker
+
+```vue
 <TextElement name="colorPickerHex" colorFormat="rgb" />
-``` ### HSL Color Picker ```vue
+```
+
+### HSL Color Picker
+
+```vue
 <TextElement name="colorPickerHex" colorFormat="hsl" />
-``` ## License [MIT](https://opensource.org/licenses/MIT)
-````
+```
+
+## License [MIT](https://opensource.org/licenses/MIT)
