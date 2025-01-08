@@ -1,0 +1,16 @@
+.gitignore
+.editorconfig
+.DS_Store
+npm-debug.log
+node_modules/
+.circleci
+assets/
+build/
+coverage/
+jest/
+node_modules/
+tests/
+.gitignore
+babel.config.js
+CODE_OF_CONDUCT.md
+.github/

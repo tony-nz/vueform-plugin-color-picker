@@ -1,0 +1,53 @@
+{
+  "name": "@vueform/vueform-plugin-color-picker",
+  "version": "1.0.0",
+  "description": "Unofficial color picker plugin for Vueform.",
+  "repository": "vueform/vueform-plugin-color-picker",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tony Myers",
+      "email": "tony@myers.co.nz"
+    }
+  ],
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./plugin": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/plugin.js"
+    },
+    "./plugin.js": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/plugin.js"
+    },
+    "./src": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "build": "rollup --config build/rollup.config.js",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@vueform/vueform": "^1.12.1",
+    "vue": "^3.4.19"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.12.0",
+    "rollup-plugin-license": "^3.2.0"
+  }
+}
