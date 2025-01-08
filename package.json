@@ -2,7 +2,7 @@
   "name": "@vueform/vueform-plugin-color-picker",
   "version": "1.0.0",
   "description": "Unofficial color picker plugin for Vueform.",
-  "repository": "vueform/vueform-plugin-color-picker",
+  "repository": "@tony-nz/vueform-plugin-color-picker",
   "license": "MIT",
   "authors": [
     {
